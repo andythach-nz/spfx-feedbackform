@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "feedbackform-page-fill-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/feedbackformPageFill/FeedbackformPageFillWebPart.js",
+          "manifest": "./src/webparts/feedbackformPageFill/FeedbackformPageFillWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FeedbackformPageFillWebPartStrings": "lib/webparts/feedbackformPageFill/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
